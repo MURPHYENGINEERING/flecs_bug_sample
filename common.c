@@ -19,6 +19,7 @@ void CommonImport(ecs_world_t *world)
       desc.name = "SharedTag";
       
       // SOLUTION: Have to add this to ECS_ENTITY_DEFINE
+      // desc.symbol = #id; \
       desc.symbol = "SharedTag";
 
       desc.add_expr = "0";
